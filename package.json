@@ -1,5 +1,5 @@
 {
-  "name": "styleguide-generator",
+  "name": "sgd",
   "version": "1.0.0",
   "description": "A small styleguide generator",
   "main": "index.js",

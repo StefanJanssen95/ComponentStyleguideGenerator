@@ -1,3 +1,3 @@
-let sgv = require("../index.js"); // Normally you use NPM install and require it using: let sgv = require("sgv")
+let sgd = require("../index.js"); // Normally you use NPM install and require it using: let sgd = require("sgd")
 
-sgv.build();
+sgd.build();
