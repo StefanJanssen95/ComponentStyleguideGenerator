@@ -1,0 +1,19 @@
+== name ==
+SpecialButton
+
+== path ==
+src/components/special-button/special-button.vue
+
+== description ==
+Fancy button for special occasions
+
+== props ==
+rainbow     | Boolean    | false    | Should every letter be a different color?
+comic       | Boolean    | false    | Use Comic Sans as font
+
+== slots ==
+default     | Button label
+
+
+== import ==
+import SpecialButton from "components/special-button/special-button.vue";

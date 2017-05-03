@@ -1,0 +1,24 @@
+== name ==
+TabContainer
+
+== path ==
+src/components/tab-container/tab-container.vue
+
+== description ==
+<p>The TabContainer will add tabs. Each tab wil load another component.<p>
+Example tabs value:
+<code>[{
+    name: "PROFILE",
+    content: odEmployeeProfile
+}, {
+    name: "PROJECTS",
+    content: odEmployeeProjects
+}]</code>
+The name is title of the tab and the content is a component which will be shown when the tab is active.
+
+== props ==
+tabs    | Array    | Required  | Array with Javascript Objects.
+
+
+== import ==
+import TabContainer from "components/tab-container/tab-container.vue";

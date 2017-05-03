@@ -1,0 +1,50 @@
+.component{
+    margin: 25px 0 50px 0;
+    font-size: 16px;
+}
+
+.component__header{
+    margin-bottom: 20px;
+}
+
+.component__title{
+    position: relative;
+    overflow: visible;
+    margin-left: -30px;
+    padding-left: 30px;
+}
+
+.component__title-prefix{
+    position: absolute;
+    bottom: .125em;
+    left: 10px;
+    display: block;
+    color: #1978c8;
+    font-size: 0.65em;
+    font-weight: normal;
+    text-decoration: none;
+    visibility: hidden;
+}
+.component__title:hover>.component__title-prefix{
+    visibility: visible;
+}
+
+.component__path{
+    font-family: Consolas, "Liberation Mono", Menlo, monospace;
+    color: #999;
+    font-size: 14px;
+}
+
+.component__description{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.component__props{
+    margin-bottom: 30px;
+}
+
+.component-section__title{
+    margin: 0 0 7px;
+    font-size: 20px;
+}

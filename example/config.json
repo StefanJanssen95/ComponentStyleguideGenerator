@@ -1,0 +1,33 @@
+{
+    "project": {
+        "name": "Example styleguide"
+    },
+    "templateDir": "./templates/",
+    "componentsDir": "./components/",
+    "styleDir": "./templates/css/",
+    "templates": {
+        "main": "styleguide.html",
+        "component":{
+            "file": "component.html",
+            "sections":{
+                "description": {
+                    "file": "component/description.html"
+                },
+                "props": {
+                    "file": "component/propsTable.html",
+                    "type": "table",
+                    "row": "component/propsRow.html"
+                },
+                "slots": {
+                    "file": "component/slotsTable.html",
+                    "type": "table"
+                },
+                "import": {
+                    "file": "component/import.html"
+                }
+            }
+        },
+        "navigation": "navigation.html",
+        "navigationItem": "navItem.html"
+    }
+}

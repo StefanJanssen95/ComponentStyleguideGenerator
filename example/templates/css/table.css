@@ -1,0 +1,28 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    border-bottom: 1px #e8e8e8 solid;
+}
+
+th{
+    padding-right: 15px;
+    padding-bottom: 6px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+td{
+    padding-right: 15px;
+    padding-top: 6px;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+td:last-child, th:last-child{
+    width: 99%;
+    padding-left: 15px;
+}
