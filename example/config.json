@@ -2,10 +2,10 @@
     "project": {
         "name": "Example styleguide"
     },
-    "templateDir": "./templates/",
-    "componentsDir": "./components/",
-    "styleDir": "./templates/css/",
-    "destDir": "./build",
+    "templateDir": "templates/",
+    "componentsDir": "components/",
+    "styleDir": "templates/css/",
+    "destDir": "build/",
     "templates": {
         "main": "styleguide.html",
         "component": {

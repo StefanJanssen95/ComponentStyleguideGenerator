@@ -1,12 +1,13 @@
 let fs = require('fs');
+const baseDir = process.argv[2] ? process.argv[2] : "./"
 
 // Load config
 let config = JSON.parse(fs.readFileSync("config.json", "utf-8"));
 
 // set directories
-const destDir = config.destDir;
-const templateDir = config.templateDir;
-const componentsDir = config.componentsDir;
+const destDir = baseDir + config.destDir;
+const templateDir = baseDir + config.templateDir;
+const componentsDir = baseDir + config.componentsDir;
 const DEBUG = config.DEBUG || false;
 
 // Preload template files
