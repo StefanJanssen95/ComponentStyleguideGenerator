@@ -1,11 +1,11 @@
 let fs = require('fs');
-const baseDir = process.argv[2] ? process.argv[2] : "./"
-
+const baseDir = process.argv[2] ? process.argv[2] : "./";
 // Load config
-let config = JSON.parse(fs.readFileSync("config.json", "utf-8"));
+let config = JSON.parse(fs.readFileSync(baseDir+"config.json", "utf-8"));
 
 // set directories
 const destDir = baseDir + config.destDir;
+const styleDir = baseDir + config.styleDir
 const templateDir = baseDir + config.templateDir;
 const componentsDir = baseDir + config.componentsDir;
 const DEBUG = config.DEBUG || false;
@@ -28,9 +28,9 @@ let navigationList = "";
 
 // Concat CSS
 console.log("Preparing CSS")
-let cssFiles = fs.readdirSync(config.styleDir);
+let cssFiles = fs.readdirSync(styleDir);
 for( let i=0; i<cssFiles.length; i++){
-    css += fs.readFileSync(config.styleDir + cssFiles[i],'utf-8');
+    css += fs.readFileSync(styleDir + cssFiles[i],'utf-8');
 }
 
 console.log("Preparing components")
