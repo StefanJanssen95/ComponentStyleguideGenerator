@@ -4,8 +4,7 @@ let fs = require('fs');
 let config = JSON.parse(fs.readFileSync("config.json", "utf-8"));
 
 // set directories
-const projectDir = "./";
-const destDir = "./build/";
+const destDir = config.destDir;
 const templateDir = config.templateDir;
 const componentsDir = config.componentsDir;
 const DEBUG = config.DEBUG || false;

@@ -37,6 +37,7 @@ Each row is placed on a different line, and cells are seperated with a pipechara
     "templateDir": "./templates/", // Required
     "componentsDir": "./components/", // Required
     "styleDir": "./templates/css/", // Required
+    "destDir": "./build/",// Required
     "templates": {
         "main": "styleguide.html", // Required
         "component":{

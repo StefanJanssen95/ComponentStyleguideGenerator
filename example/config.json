@@ -5,11 +5,12 @@
     "templateDir": "./templates/",
     "componentsDir": "./components/",
     "styleDir": "./templates/css/",
+    "destDir": "./build",
     "templates": {
         "main": "styleguide.html",
-        "component":{
+        "component": {
             "file": "component.html",
-            "sections":{
+            "sections": {
                 "description": {
                     "file": "component/description.html"
                 },
